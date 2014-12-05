@@ -335,7 +335,7 @@ Copyright 2012 - 2014 (c) Markus Kohlhase <mail@markus-kohlhase.de>
     _ref2 = res.block;
     for (_j = 0, _len1 = _ref2.length; _j < _len1; _j++) {
       x = _ref2[_j];
-      blockEmpty = +x.empty;
+      blockEmpty += x.empty;
     }
     source = total - comment - empty + blockEmpty + mixed;
     if (opt.debug) {
